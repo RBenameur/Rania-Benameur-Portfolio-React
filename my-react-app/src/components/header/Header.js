@@ -1,3 +1,11 @@
+import React from "react";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faChevronDown  } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { animateScroll, scrollTo } from 'react-scroll';
+import { Link } from 'react-scroll';
+
+library.add(faChevronDown);
 
 function Header(){
 
@@ -9,16 +17,15 @@ function Header(){
                     <h1>_Rania_Benameur_</h1>
                 </div>
                 <div id="navigation"> 
-                    <a href="#about">about me.</a>
-                    <a href="#work">work.</a>
-                    <a href="#contact">contact.</a>
+                    <Link to="about">about me.</Link>
+                    <Link to="work">work.</Link>
+                    <Link to="contact">contact.</Link>
                 </div>
             </nav>
-            <div class="hero-container">
-                <a href="#about">
-                    <p>icon</p>
-                    {/* <i class="fas fa-chevron-down fa-3x"></i> */}
-                    </a>
+            <div className="hero-container">
+                <Link to="about">
+                    <FontAwesomeIcon icon={faChevronDown} />
+                </Link>
             </div>
         </header>
         </>
