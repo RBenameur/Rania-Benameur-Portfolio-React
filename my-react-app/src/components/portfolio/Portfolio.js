@@ -1,4 +1,5 @@
 import React from "react";
+import "./portfolio.css";
 import { Element } from 'react-scroll';
 
 function Portfolio(){
