@@ -19,7 +19,7 @@ section {
 }
 
 #contact {
-    width: 100%;
+    width: 100vw;
     background-color: var(--oxford-blue-op);
     box-shadow: 0px -5px 25px var(--shadow);
     margin-bottom: 5%;
