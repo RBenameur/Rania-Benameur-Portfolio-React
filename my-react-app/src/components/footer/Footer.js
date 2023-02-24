@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 function Footer(){
 
