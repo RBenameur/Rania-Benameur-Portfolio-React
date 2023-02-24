@@ -3,25 +3,25 @@
         "name":"Recipedia",
         "description": "HTML CSS JavaScript JQuery Bootstraps",
         "github": "https://github.com/o1ujok3/Recipedia",
-        "deployed": "https://github.com/o1ujok3/Recipedia"
+        "deployed": "https://o1ujok3.github.io/Recipedia/"
     },
     {
         "name": "Weather Dashboard",
         "description": "HTML CSS JavaScript JQuery Moment.js Bootstraps",
         "github": "https://github.com/RBenameur/Weather-Dashboard",
-        "deployed": "https://github.com/o1ujok3/Recipedia"
+        "deployed": "https://rbenameur.github.io/Weather-Dashboard/"
     },
     {
         "name": "Daily Planner",
         "description": "HTML CSS JavaScript Moment.js JQuery Bootstraps",
         "github": "https://github.com/RBenameur/Daily-Planner-App",
-        "deployed": "https://github.com/o1ujok3/Recipedia"
+        "deployed": "https://rbenameur.github.io/Daily-Planner-App/"
     },
     {
         "name": "Javascript Quiz",
         "description": "HTML CSS Javascript",
         "github": "https://github.com/RBenameur/javascript-quiz",
-        "deployed": "https://github.com/o1ujok3/Recipedia"
+        "deployed": "https://rbenameur.github.io/javascript-quiz/"
     }]
 
 }

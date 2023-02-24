@@ -9,8 +9,6 @@
 h2 {
     color: rgb(218, 217, 217);
     line-height: 30px;
-    /* update font */
-    /* font-family: 'Corben'; */
     font-size: 50px;
     margin: 2.5%;
     text-align: center;
@@ -93,8 +91,6 @@ section {
 }
    
 .card-text h3, .card-text h5 {
-    /*set font */
-    /* font-family: 'Corben'; */
     font-weight: lighter;
 }
    
