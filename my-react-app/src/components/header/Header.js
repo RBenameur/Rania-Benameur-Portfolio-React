@@ -12,24 +12,16 @@ function Header(){
 
     return (
         <>
-        <header>
-            <nav>
-                <div id="logo">
-                    <h1>Rania Benameur</h1>
-                </div>
-                <div id="navigation">
-                    <NavLink to="/home" className="link-class">home.</NavLink> 
-                    <Link to="about" className="link-class">about me.</Link>
-                    <NavLink to="/portfolio" className="link-class">work.</NavLink>
-                    <NavLink to="/contact" className="link-class">contact.</NavLink>
-                </div>
-            </nav>
-            <div className="hero-container">
-                <Link to="about">
-                    <FontAwesomeIcon icon={faChevronDown} className="icon" />
-                </Link>
+        <nav>
+            <div id="logo">
+                <h1>Rania Benameur</h1>
             </div>
-        </header>
+            <div id="navigation">
+                <NavLink to="/home" className="link-class">home.</NavLink> 
+                <NavLink to="/portfolio" className="link-class">work.</NavLink>
+                <NavLink to="/contact" className="link-class">contact.</NavLink>
+            </div>
+        </nav>
         </>
     );
 }
