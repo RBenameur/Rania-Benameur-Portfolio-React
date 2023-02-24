@@ -18,9 +18,9 @@ function Header(){
                     <h1>Rania Benameur</h1>
                 </div>
                 <div id="navigation">
-                    <NavLink to="/" className="link-class">home.</NavLink> 
+                    <NavLink to="/home" className="link-class">home.</NavLink> 
                     <Link to="about" className="link-class">about me.</Link>
-                    <NavLink to="/work" className="link-class">work.</NavLink>
+                    <NavLink to="/portfolio" className="link-class">work.</NavLink>
                     <NavLink to="/contact" className="link-class">contact.</NavLink>
                 </div>
             </nav>

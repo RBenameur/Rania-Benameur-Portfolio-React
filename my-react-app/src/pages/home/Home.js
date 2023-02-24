@@ -1,12 +1,14 @@
 import React from "react";
 import './home.css';
+import About from "../../components/about/About";
 
-function Home() {
+function HomePage() {
 
     return (
         <>
+        <About />
         </>
     )
 }
 
-export default Home;
+export default HomePage;

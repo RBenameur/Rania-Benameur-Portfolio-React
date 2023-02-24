@@ -1,12 +1,15 @@
 import React from "react";
 import './contact.css';
+import Contact from "../../components/contact/Contact";
 
-function Contact() {
+function ContactPage() {
 
     return (
         <>
+        <Contact />
         </>
     )
 }
 
-export default Contact;
+
+export default ContactPage;
