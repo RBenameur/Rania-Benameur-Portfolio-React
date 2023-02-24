@@ -1,63 +1,7 @@
-/* Declare variables */
-
-:root {
-    --cool-grey: #9493B7;
-    --shadow: rgb(32, 32, 32, 0.6);
-}
-
-/* header styling for logo. nav and hero*/
-
-header {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-  
-h1 {
-    font-size: 60px;
-    font-weight: lighter;
-    color: white;
-}
-  
-header nav {
-    background: var(--shadow);
-    box-shadow: 0px 5px 5px var(--shadow), 0px -5px 5px var(--shadow) ;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0% 5%;
-    width: 100%;
-    margin-top: 15%;
-}
-  
-.link-class {
-    margin: 2%;
-    width: fit-content;
-    font-size: 25px;
-    color: rgb(222, 222, 222);
-    text-decoration: none;
-}
-  
-.link-class:hover {
-    text-decoration: underline;
-    color: var(--cool-grey)
-}
-
-/* custom header section */
-
-/* Navigation styles */
-
-#navigation {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    width: 350px;
-}
+/* hero*/
 
 .hero-container { 
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -71,12 +15,12 @@ header nav {
     color: var(--cool-grey);
 }
 
-header:hover .icon {
+.hero-container .icon {
     animation: enlarge 1s linear 0s infinite alternate;
     transition: 2s;
   }
   
-header:hover .icon:hover {
+.hero-container:hover .icon:hover {
     transform: rotate(180deg);
     animation: enlarge 1s linear 0s infinite alternate;
     transition: 2s;
