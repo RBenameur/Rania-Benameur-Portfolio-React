@@ -1,3 +1,8 @@
+:root {
+    --cool-grey: #9493B7;
+    --shadow: rgb(32, 32, 32, 0.6);
+}
+
 /* hero*/
 
 .hero-container { 

@@ -10,8 +10,8 @@ function Footer(){
         <>
           <footer>
                 <div id="social-media">
-                    <a href="https://www.linkedin.com/in/rania-b-7992a419b/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon" /></a>
-                    <a href="https://github.com/RBenameur" target="_blank"><FontAwesomeIcon icon={faGithub} className="icon" /></a>
+                    <a href="https://www.linkedin.com/in/rania-b-7992a419b/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="icon" /></a>
+                    <a href="https://github.com/RBenameur" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="icon" /></a>
                 </div>
                 <p id="copyright"> &copy; Rania Benameur 2023</p>
             </footer> 
