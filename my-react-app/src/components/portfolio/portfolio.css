@@ -1,0 +1,109 @@
+/* Declare variables */
+
+:root {
+    --cool-grey: #9493B7;
+    --shadow: rgb(32, 32, 32, 0.6);
+    --oxford-blue: rgba(15, 26, 58, 0.75);
+}
+
+h2 {
+    color: rgb(218, 217, 217);
+    line-height: 30px;
+    /* update font */
+    font-family: 'Corben';
+    font-size: 50px;
+    margin: 2.5%;
+    text-align: center;
+}
+
+section {
+    width: fit-content;
+    background-color: var(--oxford-blue);
+    box-shadow: 0px 5px 25px var(--shadow);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#work {
+    max-width: 1200px;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 0 5%;
+    margin: 5%;
+    backdrop-filter: blur(15px);
+}
+   
+.card-container {
+    width: 100%;
+    height: fit-content;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+   
+.card1 {background-image: url(../../images/Recipedia_Landing_Page.PNG)} 
+   
+.card2 {background-image: url(../../images/Weather_Dashboard.PNG)}
+   
+.card3 {background-image: url(../../images/Daily_Planner.PNG)} 
+   
+.card4 {background-image: url(../../images/Javascript_quiz.PNG)}
+   
+.card {
+    margin: 0 5% 5% 5%;
+    width: 300px;
+    height: 250px;;
+    background-size: cover;
+    box-shadow: 0px 10px 25px var(--shadow);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+   
+.card .icon {
+    margin-top: 65%;
+    transition: 3s;
+    z-index: 1;
+}
+   
+.card:hover .icon {
+    transform: rotate(180deg);
+    margin-top: 30%;
+    transition: 3s;
+}
+   
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 10px;
+    width: 100%;
+    background-color: rgba(32, 32, 32, 0.9);
+    box-shadow: 0px -30px 25px 20px rgba(32, 32, 32, 0.9);
+    color:rgb(218, 217, 217);
+    min-height: 17vh;
+}
+   
+.card-text h3, .card-text h5 {
+    /*set font */
+    font-family: 'Corben';
+    font-weight: lighter;
+}
+   
+.card-text p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.card-text p:hover {
+    color: var(--cool-grey);
+    text-decoration: underline;
+}

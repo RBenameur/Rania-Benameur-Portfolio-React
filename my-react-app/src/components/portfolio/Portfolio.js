@@ -1,5 +1,8 @@
 import React from "react";
+import "./portfolio.css";
 import { Element } from 'react-scroll';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 function Portfolio(){
 
@@ -10,7 +13,8 @@ function Portfolio(){
                 <h2>work.</h2>
                 <div className="card-container">
                     <div className=" card card1">
-                        <i className="fas fa-chevron-down fa-3x"></i>
+                    <FontAwesomeIcon icon={faChevronDown} className="icon" />
+                        {/* <i className="fas fa-chevron-down fa-3x"></i> */}
                         <div className="card-text">
                             <h3>Recipedia</h3>
                             <h5>HTML CSS JavaScript JQuery Bootstraps</h5>
@@ -19,7 +23,8 @@ function Portfolio(){
                     </div>
 
                     <div className="card card2">
-                        <i className="fas fa-chevron-down fa-3x"></i>
+                    <FontAwesomeIcon icon={faChevronDown} className="icon" />
+                        {/* <i className="fas fa-chevron-down fa-3x"></i> */}
                         <div className="card-text">
                             <h3>Weather Dashboard</h3>
                             <h5> HTML CSS JavaScript JQuery Moment.js Bootstraps</h5>
@@ -28,7 +33,8 @@ function Portfolio(){
                     </div>
 
                     <div className=" card card3">
-                        <i className="fas fa-chevron-down fa-3x"></i>
+                    <FontAwesomeIcon icon={faChevronDown} className="icon" />
+                        {/* <i className="fas fa-chevron-down fa-3x"></i> */}
                         <div className="card-text">
                             <h3>Daily Planner</h3>
                             <h5> HTML CSS JavaScript Moment.js JQuery Bootstraps</h5>
@@ -37,7 +43,8 @@ function Portfolio(){
                     </div>
 
                     <div className=" card card4">
-                        <i className="fas fa-chevron-down fa-3x"></i>
+                    <FontAwesomeIcon icon={faChevronDown} className="icon" />
+                        {/* <i className="fas fa-chevron-down fa-3x"></i> */}
                         <div className="card-text">
                             <h3>Javascript Quiz</h3>
                             <h5>HTML CSS Javascript</h5>
