@@ -1,0 +1,34 @@
+:root {
+    --cool-grey: #9493B7;
+    --shadow: rgb(32, 32, 32, 0.6);
+}
+
+/* hero*/
+
+.hero-container { 
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    background: linear-gradient(180deg, rgba(32,32,33, 0) 80%, var(--shadow) 90%, rgb(32, 32, 32) 100%);
+}
+
+.icon {
+    font-size:50px !important;
+    padding: 0 1.5%;
+    color: var(--cool-grey);
+}
+
+.hero-container .icon {
+    animation: enlarge 1s linear 0s infinite alternate;
+    transition: 2s;
+  }
+  
+.hero-container:hover .icon:hover {
+    transform: rotate(180deg);
+    animation: enlarge 1s linear 0s infinite alternate;
+    transition: 2s;
+}
+
+  

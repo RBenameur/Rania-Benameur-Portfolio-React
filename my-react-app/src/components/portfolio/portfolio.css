@@ -9,8 +9,6 @@
 h2 {
     color: rgb(218, 217, 217);
     line-height: 30px;
-    /* update font */
-    font-family: 'Corben';
     font-size: 50px;
     margin: 2.5%;
     text-align: center;
@@ -48,13 +46,13 @@ section {
     justify-content: center;
 }
    
-.card1 {background-image: url(../../images/Recipedia_Landing_Page.PNG)} 
+.card0 {background-image: url(../../images/Recipedia_Landing_Page.PNG)} 
    
-.card2 {background-image: url(../../images/Weather_Dashboard.PNG)}
+.card1 {background-image: url(../../images/Weather_Dashboard.PNG)}
    
-.card3 {background-image: url(../../images/Daily_Planner.PNG)} 
+.card2 {background-image: url(../../images/Daily_Planner.PNG)} 
    
-.card4 {background-image: url(../../images/Javascript_quiz.PNG)}
+.card3 {background-image: url(../../images/Javascript_quiz.PNG)}
    
 .card {
     margin: 0 5% 5% 5%;
@@ -93,8 +91,6 @@ section {
 }
    
 .card-text h3, .card-text h5 {
-    /*set font */
-    font-family: 'Corben';
     font-weight: lighter;
 }
    

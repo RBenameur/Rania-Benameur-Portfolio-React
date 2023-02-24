@@ -14,7 +14,7 @@ function About() {
                     <p>I am a keen frontend web development bootcamp alumni seeking a junior position. I completed my bootcamp during my evening alongside a full-time job. I hope this demonstrates to you my drive and commitment to learnin. I aspire to develop my skills further in HTML, CSS, Bootstraps, JavaScript, JQuery, Node.js, React.js and more. </p>
                 </div>
                 <div id="about-me-profile-pic">
-                    <img src={pp} alt="Profile picture of Rania Benameur"/>
+                    <img src={pp} alt="Profile of Rania Benameur"/>
                 </div>
             </section>
         </Element>

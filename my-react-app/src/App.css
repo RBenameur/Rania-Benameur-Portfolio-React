@@ -81,10 +81,9 @@ html, body {
   scroll-behavior: smooth;
 }
 
-/* ***** TEST ***** 
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-} */
+}
