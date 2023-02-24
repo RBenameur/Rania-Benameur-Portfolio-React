@@ -15,25 +15,9 @@ header {
   
 h1 {
     font-size: 60px;
-    /* update font */
-    font-family: 'La Belle Aurore';
     font-weight: lighter;
     color: white;
 }
-  
-/* h2, p {
-    color: rgb(218, 217, 217);
-    line-height: 30px;
-    font-family: 'Corben';
-    font-size: 50px;
-    margin: 2.5%;
-    text-align: center;
-  } */
-  
-/* p {
-    font-size: 17px;
-    font-weight: lighter;
-} */
   
 header nav {
     background: var(--shadow);
@@ -53,8 +37,6 @@ header nav {
     width: fit-content;
     font-size: 25px;
     color: rgb(222, 222, 222);
-    /* update font */
-    font-family: 'Corben';
     text-decoration: none;
 }
   
@@ -100,9 +82,4 @@ header:hover .icon:hover {
     transition: 2s;
 }
 
-/* a {text-decoration: none;}
-
-a:hover, i:hover, .card-text p:hover {color: var(--cool-grey)}
-  
-a:hover, .card-text p:hover {text-decoration: underline} */
   
