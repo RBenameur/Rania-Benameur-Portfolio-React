@@ -11,14 +11,17 @@ function Portfolio(props){
 
     const index = props.injectData;
 
+    // console.log(dataObj)
+
     return (
         <>
-        <div className={"card" + index}>
+        <div className={"card card" + index}>
         <FontAwesomeIcon icon={faChevronDown} className="icon" />
             <div className="card-text">
                 <h3>{dataObj[index].name}</h3>
-                <h5>HTML CSS Javascript</h5>
-                <a href="https://github.com/RBenameur/javascript-quiz" target="_blank" rel="noopener noreferrer"><p>visit github repo</p></a>
+                <h5>{dataObj[index].description}</h5>
+                <a href={dataObj[index].github} target="_blank" rel="noopener noreferrer"><p>visit github repo</p></a>
+                <a href={dataObj[index].deployed} target="_blank" rel="noopener noreferrer"><p>visit deployed site</p></a>
             </div>
         </div>
             {/* <div className=" card card1">

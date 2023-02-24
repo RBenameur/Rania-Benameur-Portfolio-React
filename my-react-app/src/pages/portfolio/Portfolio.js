@@ -6,10 +6,6 @@ import Portfolio from "../../components/portfolio/Portfolio";
 
 function PortfolioPage() {
 
-
-
-    // console.log(dataList);
-
     return (
         <>
             <section className="page-section" id="work">
