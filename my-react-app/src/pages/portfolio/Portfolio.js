@@ -12,6 +12,9 @@ function PortfolioPage() {
                 <h2>work.</h2>
                 <div className="card-container">
                     <Portfolio injectData="0" />
+                    <Portfolio injectData="1" />
+                    <Portfolio injectData="2" />
+                    <Portfolio injectData="3" />
                 </div>
             </section>
         </>
