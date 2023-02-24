@@ -6,7 +6,8 @@
 /* hero*/
 
 .hero-container { 
-    height: 75vh;
+    height: 65vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: flex-end;
