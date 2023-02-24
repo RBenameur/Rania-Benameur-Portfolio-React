@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from 'react-scroll';
 
 library.add(faChevronDown);
+console.log(library);
 
 function Header(){
 

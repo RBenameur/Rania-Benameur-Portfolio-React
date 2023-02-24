@@ -68,13 +68,13 @@ section {
     overflow-y: hidden;
 }
    
-.card .fa-chevron-down {
+.card .icon {
     margin-top: 65%;
     transition: 3s;
     z-index: 1;
 }
    
-.card:hover .fa-chevron-down {
+.card:hover .icon {
     transform: rotate(180deg);
     margin-top: 30%;
     transition: 3s;
