@@ -1,0 +1,112 @@
+/* Declare variables */
+
+:root {
+    /* --oxford-blue: rgba(15, 26, 58, 0.75);
+    --oxford-blue-op: rgb(15, 26, 58); */
+    --cool-grey: #9493B7;
+    /* --liberty: #5D67A9;
+    --space-cadet: rgb(33, 50, 97); */
+    --shadow: rgb(32, 32, 32, 0.6);
+  }
+
+/* header styling for logo. nav and hero*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+h1 {
+    font-size: 60px;
+    /* update font */
+    font-family: 'La Belle Aurore';
+    font-weight: lighter;
+    color: white;
+}
+  
+/* h2, p {
+    color: rgb(218, 217, 217);
+    line-height: 30px;
+    font-family: 'Corben';
+    font-size: 50px;
+    margin: 2.5%;
+    text-align: center;
+  } */
+  
+/* p {
+    font-size: 17px;
+    font-weight: lighter;
+} */
+  
+header nav {
+    background: var(--shadow);
+    box-shadow: 0px 5px 5px var(--shadow), 0px -5px 5px var(--shadow) ;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 5%;
+    width: 100%;
+    margin-top: 15%;
+}
+  
+.link-class {
+    margin: 2%;
+    width: fit-content;
+    font-size: 25px;
+    color: rgb(222, 222, 222);
+    /* update font */
+    font-family: 'Corben';
+    text-decoration: none;
+}
+  
+.link-class:hover {
+    text-decoration: underline;
+    color: var(--cool-grey)
+}
+
+/* custom header section */
+
+/* Navigation styles */
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 350px;
+}
+
+.hero-container { 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    background: linear-gradient(180deg, rgba(32,32,33, 0) 80%, var(--shadow) 90%, rgb(32, 32, 32) 100%);
+}
+
+.icon {
+    font-size:50px !important;
+    padding: 0 1.5%;
+    color: var(--cool-grey);
+}
+
+header:hover .icon {
+    animation: enlarge 1s linear 0s infinite alternate;
+    transition: 2s;
+  }
+  
+header:hover .icon:hover {
+    transform: rotate(180deg);
+    animation: enlarge 1s linear 0s infinite alternate;
+    transition: 2s;
+}
+
+/* a {text-decoration: none;}
+
+a:hover, i:hover, .card-text p:hover {color: var(--cool-grey)}
+  
+a:hover, .card-text p:hover {text-decoration: underline} */
+  
