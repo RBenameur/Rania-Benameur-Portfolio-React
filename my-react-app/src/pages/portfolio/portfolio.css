@@ -30,7 +30,7 @@ section {
     height: fit-content;
     border-radius: 5px;
     padding: 0 5%;
-    margin: 5%;
+    margin: auto;
     backdrop-filter: blur(15px);
 }
    
