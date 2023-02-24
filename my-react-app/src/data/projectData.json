@@ -1,18 +1,27 @@
 {
-    "Recipedia": {
+    "data": [{
+        "name":"Recipedia",
         "description": "HTML CSS JavaScript JQuery Bootstraps",
-        "href": "https://github.com/o1ujok3/Recipedia"
+        "github": "https://github.com/o1ujok3/Recipedia",
+        "deployed": "https://github.com/o1ujok3/Recipedia"
     },
-    "Weather Dashboard": {
+    {
+        "name": "Weather Dashboard",
         "description": "HTML CSS JavaScript JQuery Moment.js Bootstraps",
-        "href": "https://github.com/RBenameur/Weather-Dashboard"
+        "github": "https://github.com/RBenameur/Weather-Dashboard",
+        "deployed": "https://github.com/o1ujok3/Recipedia"
     },
-    "Daily Planner": {
+    {
+        "name": "Daily Planner",
         "description": "HTML CSS JavaScript Moment.js JQuery Bootstraps",
-        "href": "https://github.com/RBenameur/Daily-Planner-App"
+        "github": "https://github.com/RBenameur/Daily-Planner-App",
+        "deployed": "https://github.com/o1ujok3/Recipedia"
     },
-    "Javascript Quiz": {
+    {
+        "name": "Javascript Quiz",
         "description": "HTML CSS Javascript",
-        "href": "https://github.com/RBenameur/javascript-quiz"
-    }
+        "github": "https://github.com/RBenameur/javascript-quiz",
+        "deployed": "https://github.com/o1ujok3/Recipedia"
+    }]
+
 }
