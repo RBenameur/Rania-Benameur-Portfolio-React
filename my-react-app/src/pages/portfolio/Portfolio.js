@@ -6,7 +6,12 @@ function PortfolioPage() {
 
     return (
         <>
-        <Portfolio />
+            <section className="page-section" id="work">
+                <h2>work.</h2>
+                <div className="card-container">
+                    <Portfolio />
+                </div>
+            </section>
         </>
     )
 }

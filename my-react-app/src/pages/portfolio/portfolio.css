@@ -1,0 +1,48 @@
+/* Declare variables */
+
+:root {
+    --shadow: rgb(32, 32, 32, 0.6);
+    --oxford-blue: rgba(15, 26, 58, 0.75);
+}
+
+h2 {
+    color: rgb(218, 217, 217);
+    line-height: 30px;
+    /* update font */
+    /* font-family: 'Corben'; */
+    font-size: 50px;
+    margin: 2.5%;
+    text-align: center;
+}
+
+section {
+    width: fit-content;
+    background-color: var(--oxford-blue);
+    box-shadow: 0px 5px 25px var(--shadow);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#work {
+    max-width: 1200px;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 0 5%;
+    margin: 5%;
+    backdrop-filter: blur(15px);
+}
+   
+.card-container {
+    width: 100%;
+    height: fit-content;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

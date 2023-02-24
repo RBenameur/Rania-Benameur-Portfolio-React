@@ -15,3 +15,7 @@ footer {
     justify-content: center;
     margin-top: 5%;
 }
+
+.icon:hover {
+    color: white;
+}
